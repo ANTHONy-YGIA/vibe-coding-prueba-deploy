@@ -18,7 +18,12 @@ export default function App() {
             <CheckSquare className="size-4" aria-hidden="true" />
           </div>
           <div>
-            <h1 className="text-lg font-semibold leading-tight text-slate-900">TaskFlow</h1>
+            <div className="flex items-center gap-2">
+              <h1 className="text-lg font-semibold leading-tight text-slate-900">TaskFlow</h1>
+              <span className="rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium leading-none text-slate-500">
+                Versión 1.1
+              </span>
+            </div>
             <p className="text-xs text-slate-500">Organiza tu día, tarea por tarea</p>
           </div>
         </div>
